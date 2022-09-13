@@ -33,7 +33,7 @@ jobs:
       - name: Scripts
         run: |
           docker build -t app .
-          docker login -u prakruthi0306 -p dckr_pat__eBfmm2SOK6y4LMGhWsRKIqdWbc
+          docker login -u prakruthimr0306@gmail.com -p dckr_pat__eBfmm2SOK6y4LMGhWsRKIqdWbc
           docker tag app prakruthi0306/test
           docker push prakruthi0306/test
           
